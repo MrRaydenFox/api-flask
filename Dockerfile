@@ -5,7 +5,6 @@ COPY ./src/ /src
 WORKDIR /src
 
 RUN apt-get update                      && \ 
-    apt-get install                     && \
     pip install -r requirements.txt
 
 ENTRYPOINT ["python"]
