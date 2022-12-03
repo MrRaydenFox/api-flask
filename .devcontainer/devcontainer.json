@@ -4,16 +4,16 @@
 		"dockerfile": "../Dockerfile"
 	},
 
-	"postCreateCommand": "apt-get install -y git",
+	// "postCreateCommand": "apt-get install -y git",
 
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
-			"settings": {
-				"git.path": "/usr/bin/git"
-			},
+			// "settings": {
+			// 	"git.path": "/usr/bin/git"
+			// },
 			
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
